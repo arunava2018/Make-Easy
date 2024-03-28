@@ -28,3 +28,20 @@ function showReview() {
   userPic[i].classList.add("active-pic");
   userText[i].classList.add("active-text");
 }
+
+const navBar = document.querySelector("header");
+window.onscroll = () =>{
+  if(window.scrollY > 100){
+    navBar.classList.add('bg-color-primary-dark');
+    navBar.classList.add('border-b');
+    navBar.classList.add('border-color-gray');
+  }else{
+    navBar.classList.remove('bg-color-primary-dark');
+    navBar.classList.remove('border-b');
+    navBar.classList.remove('border-color-gray');
+  }
+}
+window.addEventListener('scroll', function() {
+  let header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 0);
+});
