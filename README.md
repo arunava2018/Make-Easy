@@ -9,7 +9,8 @@ This project is a user interface (UI) built using Tailwind CSS, HTML, and JavaSc
 - Easy customization with Tailwind CSS utility classes
 - Lightweight and fast-loading components
 
-## 🚀 Getting Started
+## 🚀Live Preview
+[Live](https://lighthearted-souffle-9ec872.netlify.app/)
 
 ### Prerequisites
 
